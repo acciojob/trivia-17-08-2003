@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> html page </title>
+     <link rel ="stylesheet" href="style.css">           
+
+    </head>
+    <body>
+
+
+       
+<h5>what is the capital of India?</h5>
+<input type="radio"name="what is the capital of India?" value ="new delhi">
+<label for ="new delhi">New Delhi</label> <br>
+<input type="radio" name="what is the capital of India?" value ="mumbai">
+<label for ="mumbai">Mumbai</label> <br>
+<style></style>
+
+<p >New Delhi is  the capital of India and an admistrive district of NCT delhi</p>
+
+</body>
+
+</html>
