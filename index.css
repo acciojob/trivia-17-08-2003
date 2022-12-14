@@ -1,0 +1,47 @@
+/* p{
+    color: red;
+
+}
+/* tag: 1 specificity */
+/* p{ */
+    color: blue;
+/* } */ 
+/* universal tag : 0 specifity */
+/* .spec{
+    color :green;
+}
+#specificity{
+    color: blue;
+} */
+*{
+    color: brown;
+}
+/* class: 10 specifity */
+/* .spec{
+    color: aqua;
+}
+/* pseudo class : 10 specificity */
+/* a:hover{
+    color: green;  */
+
+/* attribute:10 specificity */
+/* a[ttribute="value"]{
+    color: yellow;
+} */
+/* id selector: 100 specifity */
+/* #specificity{
+    color: red;
+} */
+/* a .spec{
+    color:pink;
+} */
+/* inline css :1000 specificity */
+/* important rule :10000 specificity */
+.inherit-div{
+    color: pink;
+    font-size: 20px;
+}
+.inherit-div h1{
+    color: inherit;
+    font-size: inherit;
+}
