@@ -1,0 +1,36 @@
+*{
+    background-color: #000;
+    margin: 30px;
+}
+
+.tittle{
+    font weight:400;
+    font-size:50px;
+    line-height:77 px;
+    color: #fff;
+}
+input[type="text"],input[type="email"],input[type="date"],input[type="password"],input[type="createpassword"]{
+    border:none;
+    width:65%;
+    color: white;
+    height: 33px;
+    border-bottom:2px solid white;
+    margin: 6px 0px;
+    font-size: 16px;
+}
+input[type="text"]:focus,input[type="Email"]:focus,input[type="date"]:focus,input[type="password"]:focus,input[type="createpassword"]:focus{
+    outline: none;
+}
+input[type="text"]::placeholder,input[type="Email"]::placeholder,input[type="date"]::placeholder, input[type="password"]::placeholder,input[type="createpassword"]::placeholder{
+    color:white; 
+}
+input[type="radio"]{
+    margin: 13px;
+}
+.form-control{
+    font-size: 17px;
+    color: white;
+    margin: 0px 14px; 
+
+}
+
